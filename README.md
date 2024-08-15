@@ -1,51 +1,55 @@
-To help prepare content for AI Tour, please use this template repository for organizing your sessions and preparing the content for future presentors.
-1. Update this readme with the todo's listed below
-2. The src folder has been created for all development tasks when creating this session
-3. The Lab folder is in-person and async participation with content, please update this folder with instructions for participants to follow along.
-4. The Presenter Notes folder is the train the trainer section. Here add any slide decks, demo videos, and other content as needed. This page has a rough layout to provide ideas but can be edited as needed.
-5. If you are taking advantage of the static front end site, edit the content in the _config.yml file as needed (specifically the title and description)
-
-
-# [TODO: Insert Session Title]
+# Securing AI Apps on Azure
 
 This repo is intended as a template for Microsoft AI Tour repositories
 
 ## Session Desciption
 
-TODO: Add short description of the session. Please note this description should be at a technical level that anyone from decision makers to conference attendees can understand.
+An overview of the best practices for deploying AI applications to Azure. Learn how to use managed identity (passwordless) authentication for Azure AI services. Find out how easily you can add user authentication using Microsoft Entra and built-in authentication. Explore approaches for AI safety, like Content Safety filters and Jailbreak detection. See how an AI app can be deployed safely inside a virtual network and accessible only via private endpoints.  Discover how easy it is to use CI/CD and Microsoft Defender to stay ahead of security issues in your codebases.
 
 ## Learning Outcomes
-TODO: Add a list of what you hope the attendee will take away from this session. This can be skills, technology, appreciation, etc.
+
+* Azure AI Content Safety filters, jailbreak detection
+* Managed Identity (Keyless Auth) for Azure AI services
+* User authentication with Microsoft Entra and Built-in Authentication
+* Deploying AI apps inside a virtual network
+* GitHub Actions with PSRules audit
+* Microsoft Defender for security alerts
 
 ## Technology Used
-TODO: Add a list of any technology or software used.
+
+* Azure AI
+* Microsoft Entra
+* Microsoft Defender
+* Azure Container Apps
+* Bicep
+* GitHub Actions
 
 ## Additional Resources and Continued Learning
-TODO: If you would like to link the user to further learning, please enter that here.
 
-| Resources          | Links                             | Description        |
-|:-------------------|:----------------------------------|:-------------------|
-| Future Learning 1  | [Link 1](https://www.google.com/) | Learn more about X |
-| Future Learning 2  | [Link 2](https://www.google.com/) | Learn more about Y |
+* [Microsoft Responsible AI](https://www.microsoft.com/ai/responsible-ai)
+* [Azure AI Content Safety](https://aka.ms/aicontentsafety)
+* [Hidden Layer Model Scanner](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/hiddenlayerinc1690422428200.hiddenlayer-model-scanner?tab=Overview)
+* [Microsoft Entra developer center](https://aka.ms/dev/ms-entra)
+* [Well-Architected Framework](https://aka.ms/wellarchitectedframework)
+* [PSRules action for GitHub](https://github.com/microsoft/ps-rule)
+* [Microsoft Defender](https://aka.ms/enable-defender)
+* [Python risk identification tool for generative AI](https://aka.ms/pyrit)
+
+Samples:
+
+* [AI Chat App with Managed Identity (Python)](https://aka.ms/keyless-azure-containerapps)
+* [AI Chat App with User Login and Built-in Auth](aka.ms/azai/auth-builtin)
+* [RAG app with Azure AI Search, Data Access Control, Private Network Deployment](https://aka.ms/ragchat)
 
 ## Content Owners
-TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 
 <table>
-<tr>
-    <td align="center"><a href="http://learnanalytics.microsoft.com">
-        <img src="https://github.com/cole-g-johnson.png" width="100px;" alt="Chris Testa-O'Neill
-"/><br />
-        <sub><b>INSERT NAME HERE
-</b></sub></a><br />
-            <a href="https://github.com/cole-g-johnson" title="talk">📢</a> 
+   <tr>
+    <td align="center"><a href="https://developer.microsoft.com/advocates/pamela-fox">
+        <img src="https://developer.microsoft.com/en-us/advocates/media/profiles/pamela-fox.png" width="100px;" alt="Pamela Fox"/><br />
+        <sub><strong>PAMELA FOX</strong></sub></a><br />
+         <a href="https://github.com/pamelafox" title="GitHub profile for Pamela">📢</a> 
     </td>
 </tr></table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
