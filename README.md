@@ -52,6 +52,11 @@ Samples:
         <sub><strong>PAMELA FOX</strong></sub></a><br />
          <a href="https://github.com/pamelafox" title="GitHub profile for Pamela">📢</a> 
     </td>
+    <td align="center"><a href="https://developer.microsoft.com/advocates/sarah-young">
+        <img src="https://developer.microsoft.com/en-us/advocates/media/profiles/sarah-young.png" width="100px;" alt="Sarah Young"/><br />
+        <sub><strong>SARAH YOUNG</strong></sub></a><br />
+         <a href="[https://github.com/pamelafox](https://github.com/sarah-yo)" title="GitHub profile for Sarah">📢</a> 
+    </td>
 </tr></table>
 
 ## Responsible AI
