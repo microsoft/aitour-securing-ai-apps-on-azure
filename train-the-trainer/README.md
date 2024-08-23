@@ -21,7 +21,18 @@ A video recording will be available by August 31st.
 
 ### Timing
 
-TBD
+Total time is allotted for the presentation, including demos, is 45 minutes.
+No time for questions is budgeted into the 45 minutes.
+
+| Segment             | Time |
+|---------------------|------|
+| Introduction        | 05:00 |
+| AI Safety           | 06:00 |
+| Keyless Auth        | 08:00 |
+| User Auth           | 10:00 |
+| Network Security    | 08:00 |
+| Continuous Security | 06:00 |
+| Wrap-up             | 02:00 |
 
 ## Demos
 
