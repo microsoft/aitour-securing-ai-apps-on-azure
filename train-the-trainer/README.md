@@ -2,7 +2,7 @@
 
 Welcome,
 
-We're glad you are here and look forward to your delivery of this amazing content. As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team. 
+We're glad you are here and look forward to your delivery of this amazing content. As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team.
 
 Along with the video of the presentation, this document will link to all the assets you need to successfully present including PowerPoint slides and demo instructions & code.
 
@@ -49,7 +49,7 @@ You must use a tenant that allows the creation of App Registrations (i.e. not th
     2. Enable these two optional features:
        * [User Auth with Data Access Control](https://github.com/Azure-Samples/azure-search-openai-demo/blob/main/docs/login_and_acl.md): You will need to use a tenant that allows the creation of App Registrations (not the main Microsoft tenant)
        * [User document upload](https://github.com/Azure-Samples/azure-search-openai-demo/blob/main/docs/deploy_features.md#enabling-user-document-upload)
-    3. Upload a document that you can ask a question about 
+    3. Upload a document that you can ask a question about
 
 ### Transcript
 
