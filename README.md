@@ -1,5 +1,7 @@
 # Securing AI Apps on Azure
 
+*If you will be delivering this session, consult the [train-the-trainer](./train-the-trainer/README.md) guide for slides, demo scripts, and other resources.*
+
 ## Session Desciption
 
 An overview of the best practices for deploying AI applications to Azure. Learn how to use managed identity (passwordless) authentication for Azure AI services. Find out how easily you can add user authentication using Microsoft Entra and built-in authentication. Explore approaches for AI safety, like Content Safety filters and Jailbreak detection. See how an AI app can be deployed safely inside a virtual network and accessible only via private endpoints.  Discover how easy it is to use CI/CD and Microsoft Defender to stay ahead of security issues in your codebases.
