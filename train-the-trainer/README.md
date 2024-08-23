@@ -1,69 +1,54 @@
-## TODO:
-Update this page as you see fit to properly train a future presenter of your content. A past train the trainer repo is included below for your assitance, but feel free to make any changes.
-
-Note: Please make sure to update any links within the markdown so they point to the correct file.
-
-## How To Use
+# How To Use
 
 Welcome,
 
 We're glad you are here and look forward to your delivery of this amazing content. As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team. 
 
-Along with the video of the presentation, this document will link to all the assets you need to successfully present including PowerPoint slides and demo instructions &
-code.
+Along with the video of the presentation, this document will link to all the assets you need to successfully present including PowerPoint slides and demo instructions & code.
 
-1.  Read document in its entirety.
-2.  Watch the video presentation
-3.  Ask questions of the Lead Presenter
+## Presentation
 
-## File Summary
+### Powerpoint
 
-| Resources          | Links                            | Description |
-|-------------------|----------------------------------|-------------------|
-| PowerPoint        | - [Presentation](presentations.md) | Slides |
-| PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data10/DATA10.mp4) | Video Recording of the PowerPoint slides with no audio |
-| Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) | Example Presetations of this Session |
-| Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | Additional Demo Content | 
-| Demo Recordings           | - [Data10 - Prequisites](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10_Prerequisites-NoAudio.mp4) | Recording of the Demo Live 1 | 
-| Demo Recordings           | - [Data10 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4 ) | Recording of the Demo Live 2 | 
+Download the English version of the Powerpoint Presentation from [aka.ms/AArxlk6](https://aka.ms/AArxlk6).
+Localized versions will be available soon.
 
-## Get Started
+Speaker notes are available on each slide.
 
-This training repository is divided in to the following sections:
+### Video recording
 
-| [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
-|-------------------|---------------------------|--------------------------------------
-| 28 slides - 30 minutes| 1 demos - 15 minutes | Demo setup
-
-## Slides
-
-The [slides](presentations.md) have presenter notes in each part of the session
+A video recording will be available by August 31st.
 
 ### Timing
 
-| Time        | Description 
---------------|-------------
-0:00 - 5:00   | Intro to the session 
-5:00 - 15:00  | Why Modern Data Warehousing
-15:00 - 20:00 | Building the Modern data warehouse
-20:00 - 35:00 | Designing a modern data warehouse solution
-35:00 - 40:00 | The evolution of cloud scale analytics
-40:00 - 45:00 | Session review
-
-## Deployment / Preparation
-
->**What's Here?** Deploying the demo environment on Azure - including the prerequisites.
-
-[Instructions and prerequisites are outlined here](deployment/README.md). 
-
+TBD
 
 ## Demos
 
-> **What's Here?** Pre-delivery preparation, stage ready videos, required files (such as JSON templates), and walk-through videos
+These are the demos that you may choose to do in the presentation. You may leave some out depending on time constraints.
 
-Detailed explanations of each demonstration associated with this presentation can be found in this section. There are 3 "live from stage" technical demonstrations that utilize a number of tools both in and out of Azure. [You can get a high level overview of the tools and how we will be using them here](demos/README.md).
+### Setup
 
-| Demo 	                                                                                               | Minutes | Video |
--------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | 15       | [Link](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4) |
+To be able to show the demos yourself, setup these two repositories:
 
+* **AI Chat App with Built-in Auth**: Follow deployment instructions in [openai-chat-app-entra-auth-builtin](https://github.com/Azure-Samples/openai-chat-app-entra-auth-builtin) with the Entra ID option (not Entra External ID option).
+You must use a tenant that allows the creation of App Registrations (i.e. not the main Microsoft tenant).
+* **RAG App with Data Access Control**:
+    1. Follow deployment instructions in [azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
+    2. Enable these two optional features:
+       * [User Auth with Data Access Control](https://github.com/Azure-Samples/azure-search-openai-demo/blob/main/docs/login_and_acl.md): You will need to use a tenant that allows the creation of App Registrations (not the main Microsoft tenant)
+       * [User document upload](https://github.com/Azure-Samples/azure-search-openai-demo/blob/main/docs/deploy_features.md#enabling-user-document-upload)
+    3. Upload a document that you can ask a question about 
+
+### Transcript
+
+A suggested transcript for each demo is [available](https://aka.ms/AAruyl1).
+
+### Video recordings
+
+If you'd like, there are videos available for each demo. You can either narrate the silent version of the video, or play the video with audio.
+
+| Demo                    | Duration | Video - Silent | Video - Audio |
+| ------------------------|----------|---------------- |  ----------- |
+| 1 - Built-in Auth       | 1:00     | [aka.ms/AAruykw](https://aka.ms/AAruykw) | [aka.ms/AAruqxg](https://aka.ms/AAruqxg) |
+| 2 - Data Access Control | 1:45     | [aka.ms/AAruykw](https://aka.ms/AAruykw) | [aka.ms/AAruqxg](https://aka.ms/AAruqxg) |
