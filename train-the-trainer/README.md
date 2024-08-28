@@ -10,14 +10,15 @@ Along with the video of the presentation, this document will link to all the ass
 
 ### Powerpoint
 
-Download the English version of the Powerpoint Presentation from [aka.ms/AArxlk6](https://aka.ms/AArxlk6).
+Download the English version of the Powerpoint Presentation from [aka.ms/AArxlk6](https://aka.ms/AArxlk6). Speaker notes are available on each slide.
+
 Localized versions will be available soon.
 
-Speaker notes are available on each slide.
+⚠️ In the "User Auth" section, the slides describe using Bicep to set up a federated identity credential for the Entra application. That feature is not yet available for public use (as of 8/28) but it can be talked about publicly, and should be available at some point during the AI Tour.
 
 ### Video recording
 
-A video recording will be available by August 31st.
+[Watch the recording](https://aka.ms/AArzolk)
 
 ### Timing
 
