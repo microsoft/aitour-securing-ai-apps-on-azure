@@ -1,6 +1,6 @@
 # Securing AI Apps on Azure
 
-*If you will be delivering this session, consult the [train-the-trainer](./train-the-trainer/README.md) guide for slides, demo scripts, and other resources.*
+*If you will be delivering this session, consult the [session-delivery-resources](./session-delivery-resources/README.md) guide for slides, demo scripts, and other resources.*
 
 ## Session Desciption
 
