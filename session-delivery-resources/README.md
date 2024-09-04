@@ -43,8 +43,15 @@ These are the demos that you may choose to do in the presentation. You may leave
 
 To be able to show the demos yourself, setup these two repositories:
 
-* **AI Chat App with Built-in Auth**: Follow deployment instructions in [openai-chat-app-entra-auth-builtin](https://github.com/Azure-Samples/openai-chat-app-entra-auth-builtin) with the Entra ID option (not Entra External ID option).
-You must use a tenant that allows the creation of App Registrations (i.e. not the main Microsoft tenant).
+* **AI Chat App with Built-in Auth**:
+  Follow deployment instructions in [openai-chat-app-entra-auth-builtin](https://github.com/Azure-Samples/openai-chat-app-entra-auth-builtin) with the Entra ID option (not Entra External ID option).
+  You must use a tenant that allows the creation of App Registrations (i.e. not the main Microsoft tenant).
+  If you have a capacity constraints with OpenAI TPM quota, then set the capacity before deployment with:
+  
+  ```shell
+  azd env set AZURE_OPENAI_DEPLOYMENT_CAPACITY 8
+  ```
+  
 * **RAG App with Data Access Control**:
     1. Follow deployment instructions in [azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
     2. Enable these two optional features:
