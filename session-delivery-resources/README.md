@@ -35,6 +35,13 @@ No time for questions is budgeted into the 45 minutes.
 | Continuous Security | 06:00 |
 | Wrap-up             | 02:00 |
 
+### PowerPoint Slides in Additional Languages
+
+| Language  | Last Updated |
+| ------------- | ------------- |
+| [Spanish](https://aka.ms/AAs7mfz)  | 2024.09.11  |
+|  [Portuguese](https://aka.ms/AAs7eu0) | 2024.09.11  |
+
 ## Demos
 
 These are the demos that you may choose to do in the presentation. You may leave some out depending on time constraints.
@@ -71,3 +78,12 @@ If you'd like, there are videos available for each demo. You can either narrate 
 | ------------------------|----------|---------------- |  ----------- |
 | 1 - Built-in Auth       | 1:00     | [aka.ms/AAruykw](https://aka.ms/AAruykw) | [aka.ms/AAruqxg](https://aka.ms/AAruqxg) |
 | 2 - Data Access Control | 1:45     | [aka.ms/AAruykw](https://aka.ms/AAruykw) | [aka.ms/AAruqxg](https://aka.ms/AAruqxg) |
+
+
+## Change Log
+
+Here is a log of changes made to this file:
+
+| Date  | Changes |
+| ------------- | ------------- |
+| 2024.09.11 | Added change log, added Spanish and Portuguese language slide decks  |
