@@ -76,7 +76,7 @@ If you'd like, there are videos available for each demo. You can either narrate 
 
 | Demo                    | Duration | Video - Silent | Video - Audio |
 | ------------------------|----------|---------------- |  ----------- |
-| 1 - Built-in Auth       | 1:00     | [aka.ms/AAruykw](https://aka.ms/AAruykw) | [aka.ms/AAruqxg](https://aka.ms/AAruqxg) |
+| 1 - Built-in Auth       | 1:00     | [aka.ms/AAruqx1](https://aka.ms/AAruqx1) | [aka.ms/AAruj63](https://aka.ms/AAruj63) |
 | 2 - Data Access Control | 1:45     | [aka.ms/AAruykw](https://aka.ms/AAruykw) | [aka.ms/AAruqxg](https://aka.ms/AAruqxg) |
 
 
