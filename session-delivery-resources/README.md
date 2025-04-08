@@ -18,6 +18,8 @@ Download the English version of the Powerpoint Presentation from [aka.ms/AArxlk6
 | ------------- | ------------- |
 | [Spanish](https://aka.ms/AAs7mfz)  | 2024.09.11  |
 | [Portuguese](https://aka.ms/AAs7eu0) | 2024.09.11  |
+| [Korean](https://aka.ms/AAv6jj9) | 2025.04.08  |
+| [Japanese](https://aka.ms/AAvcauo) | 2025.04.08  |
 
 ### Video recording
 
